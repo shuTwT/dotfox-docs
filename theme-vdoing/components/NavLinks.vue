@@ -17,12 +17,6 @@
       <i class="ri-wechat-fill" slot="reference" title="添加作者微信"></i>
     </el-popover> -->
 
-    <!-- repo link -->
-    <a href="https://space.bilibili.com/301103230" title="bilibili" class="repo-link" target="_blank"
-      rel="noopener noreferrer">
-      哔哩哔哩
-      <OutboundLink />
-    </a>
 
     <a v-if="repoLink" :href="repoLink" title="GitHub" class="repo-link" target="_blank" rel="noopener noreferrer">
       <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1.2em" height="1.2em"
