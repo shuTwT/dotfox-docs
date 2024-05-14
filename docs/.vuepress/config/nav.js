@@ -16,7 +16,7 @@ module.exports = [
     items: [
       {
         text: "购买授权",
-        link:"/pages/businese/"
+        link:"/pages/business/"
       },
       {
         text: "授权查询",
