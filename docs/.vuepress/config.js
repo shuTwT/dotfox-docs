@@ -156,12 +156,12 @@ module.exports = {
       },
     ],
 
-    [
-      "vuepress-plugin-baidu-tongji", // 百度统计
-      {
-        hm: "0c53b88acf416a2f1b8ffcb1957da460",
-      },
-    ],
+    // [
+    //   "vuepress-plugin-baidu-tongji", // 百度统计
+    //   {
+    //     hm: "0c53b88acf416a2f1b8ffcb1957da460",
+    //   },
+    // ],
 
     [
       "one-click-copy",
