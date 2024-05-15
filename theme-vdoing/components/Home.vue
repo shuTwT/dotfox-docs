@@ -49,7 +49,7 @@
           </p>
           <p style="font-size:15px">
             <el-link style="color: #426feb" :underline="false" href="https://github.com/pure-admin"
-              target="_blank">2020年11月16日开发</el-link>
+              target="_blank">2025年2月30日开发</el-link>
           </p>
           <!-- <p style="font-size:15px">
             <el-link style="color: #426feb" :underline="false" href="https://www.bilibili.com/video/BV1Xv4y1U7UN/"
