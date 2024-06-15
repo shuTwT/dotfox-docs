@@ -1,0 +1,64 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <div class="min-h-screen flex flex-col">
+    <div class="top">
+      <Header />
+    </div>
+    <div class="flex-1">
+      <div class="flex justify-center">
+        <div class="px-4">
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                Node版
+                <div class="badge badge-secondary">
+                    <span class="mr-1">¥</span>
+                    <span class="mr-1">2999</span>
+                    <em>&sol;永久</em>
+                </div>
+              </h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">购买</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="px-4">
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                java版
+                <div class="badge badge-secondary">
+                    <span class="mr-1">¥</span>
+                    <span class="mr-1">2999</span>
+                    <em>&sol;永久</em>
+                </div>
+              </h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">购买</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
