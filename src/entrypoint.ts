@@ -1,4 +1,4 @@
-import type {Alpine} from 'alpinejs'
-export default function(Alpine:Alpine){
+// import type {Alpine} from 'alpinejs'
+export default function(/**Alpine:Alpine*/){
     
 }
