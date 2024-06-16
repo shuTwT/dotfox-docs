@@ -1,8 +1,8 @@
 <header class="navbar container">
   <div class="flex-1">
     <a class="flex items-center gap-3" href="/">
-      <img class="h-10" src="https://www.halo.run/logo" />
-      <span class="text-xl hidden lg:block">Halo 演示站点</span>
+      <img class="h-10" src="/logo.svg" />
+      <span class="text-xl hidden lg:block">dotfox</span>
     </a>
   </div>
   <div class="flex-none items-center">
@@ -79,13 +79,13 @@
         <path d="M5 12h14M12 5l7 7-7 7"></path>
       </svg>
     </button>
-    <label class="swap swap-rotate">
+    <label class="swap swap-rotate mx-2">
       <!-- this hidden checkbox controls the state -->
       <input type="checkbox" @click="darkMode=!darkMode" />
 
       <!-- sun icon -->
       <svg
-        class="swap-on fill-current w-10 h-10"
+        class="swap-on fill-current w-6 h-6"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         ><path
@@ -95,7 +95,7 @@
 
       <!-- moon icon -->
       <svg
-        class="swap-off fill-current w-10 h-10"
+        class="swap-off fill-current w-6 h-6"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         ><path
