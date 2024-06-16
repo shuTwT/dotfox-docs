@@ -36,7 +36,8 @@ import Header from "../components/Header.astro";
                     <button
                       class="btn btn-secondary"
                       data-link="/"
-                      onclick="location=this.getAttribute('data-link')"
+                      x-data
+                      @click="$data.isModalOpen=true"
                       >了解更多</button
                     >
                   </div>

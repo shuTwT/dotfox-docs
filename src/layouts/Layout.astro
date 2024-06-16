@@ -1,6 +1,7 @@
 ---
 import "../styles/base.css"
 import 'swiper/css';
+import Modal from "../components/Modal.astro"
 interface Props {
 	title: string;
 }
@@ -18,8 +19,9 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} | dotfox快速开发平台</title>
 	</head>
-	<body>
+	<body x-data="app">
 		<slot />
+		<Modal></Modal>
 	</body>
 </html>
 <style is:global>
